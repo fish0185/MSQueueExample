@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D66F1829-3404-4E1B-BE02-9F40F1A6128C}</ProjectGuid>
+    <ProjectGuid>{8ACF1237-F93B-459B-A7B0-5A9BD5102C92}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MSQueueExample</RootNamespace>
-    <AssemblyName>MSQueueExample</AssemblyName>
+    <RootNamespace>SendMessage</RootNamespace>
+    <AssemblyName>SendMessage</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,9 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
