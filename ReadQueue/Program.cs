@@ -13,6 +13,13 @@ namespace ReadQueue
         {
             var path = @".\Private$\IDG";
             var lstMessage = ReadQueue(path);
+            while (true)
+            {
+                var messageQueue = new MessageQueue(path);
+                // receive a message and dequeue
+                var msg =  messageQueue.Receive();
+                
+            }
         }
 
         private static List<string> ReadQueue(string path)
